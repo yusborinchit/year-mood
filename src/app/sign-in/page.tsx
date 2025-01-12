@@ -1,5 +1,6 @@
 import Link from "next/link";
 import GithubButton from "~/components/auth/github-button";
+import GoogleButton from "~/components/auth/google-button";
 import { Separator } from "~/components/ui/separator";
 
 export default function SignInPage() {
@@ -19,7 +20,7 @@ export default function SignInPage() {
         </div>
         <Separator className="my-6 bg-border" />
         <div className="flex flex-col gap-4">
-          <GithubButton />
+          <GoogleButton />
           <GithubButton />
         </div>
       </section>
